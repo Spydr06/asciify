@@ -7,7 +7,17 @@ This project is meant to teach me how to write GNU-coreutils like code in C usin
 Use this for educational purposes only.
 
 * Building:
-  
-$ autoreconf -i
-$ ./configure
+
+$ mkdir build && cd build
+$ autoreconf -i ../configure.ac
+$ ../configure
 $ make
+
+* Running:
+
+$ src/asciify
+$ src/unasciify
+
+* Installing:
+
+# make install
