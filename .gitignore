@@ -1,0 +1,12 @@
+*
+!*/
+
+*.cache
+.deps
+!.gitignore
+!*.ac
+!*.am
+!src/
+!*.h
+!*.c
+!LICENSE
