@@ -1,0 +1,13 @@
+~ ASCIIFY ~
+
+A set of simple tools for turning strings/files into individual ascii chars and vice versa.
+
+This project is meant to teach me how to write GNU-coreutils like code in C using the GNU GPL license and the standard GNU toolset `gcc`, `autoconf`, `automake` and `make`.
+
+Use this for educational purposes only.
+
+* Building:
+  
+$ autoreconf -i
+$ ./configure
+$ make
